@@ -1,32 +1,32 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kavivanar&display=swap");
 
 @font-face {
-	font-family: "Titillium";
-	src: url("../fonts/Titillium_Web/Titillium-Regular.woff") format("woff"),
-	url("../fonts/Titillium_Web/Titillium-Regular.woff2") format("woff2") ;
-	font-display: swap;
-	font-weight: 400;
-	font-style: normal;
+  font-family: "Titillium";
+  src: url("../fonts/Titillium_Web/Titillium-Regular.woff") format("woff"),
+    url("../fonts/Titillium_Web/Titillium-Regular.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: "CircularStd";
-	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
-	font-display: swap;
-	font-weight: 400;
-	font-style: normal;
+  font-family: "CircularStd";
+  src: url("../fonts/CircularStd-Book.woff2") format("woff2"),
+    url("../fonts/CircularStd-Book.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
-	font-family: 'Titillium','Kavivanar','serif','sans-serif';
-  font-style: bold;
+  font-family: "Titillium", "Kavivanar", "serif", "sans-serif";
   background-color: #c4d2bd;
 }
 
 .article-name {
-	font-family: 'Titillium','Kavivanar','serif','sans-serif';
+  font-family: "Titillium", "Kavivanar", "serif", "sans-serif";
+  font-style: italic;
   font-size: 35px;
   text-align: center;
   text-shadow: 1px 7px 5px #000;
@@ -36,7 +36,7 @@ body {
 }
 
 .list-of-products li {
-	font-family: 'CircularStd','Kavivanar','serif','sans-serif';
+  font-family: "CircularStd", "Kavivanar", "serif", "sans-serif";
   display: list-item;
   text-align: center;
   line-height: 2;
@@ -50,13 +50,13 @@ body {
 .headerlocal1,
 .headerlocal2,
 .headerlocal3 {
-	font-family: 'Kalam','Kavivanar','serif','sans-serif';;
-	font-weight: 700;
-  	font-size: 20px;
-  	margin-top: 5px;
-  	margin-bottom: 7px;
-  	letter-spacing: 5px;
-  	text-indent: 20px;
+  font-family: "Kalam", "Kavivanar", "serif", "sans-serif";
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 7px;
+  letter-spacing: 5px;
+  text-indent: 20px;
 }
 
 .iphone14,
@@ -74,9 +74,17 @@ body {
   letter-spacing: 2px;
 }
 
+.center1,
+.center2,
+.center3,
+.center4,
+.center5 {
+  text-align: center;
+}
+
 p {
-  font-family: 'Titillium','Kavivanar','serif','sans-serif';;
-  font-size: 15;
+  font-family: "Titillium", "Kavivanar", "serif", "sans-serif";
+  font-size: 15px;
   text-indent: 20px;
 }
 
@@ -85,7 +93,7 @@ p {
   margin-left: 20px;
   margin-bottom: 3%;
   letter-spacing: 5px;
-  line-height: 1, 5;
+  line-height: 1.5;
 }
 
 .link1,
@@ -94,9 +102,8 @@ p {
 }
 
 .link1,
-.link2{
-font-family: 'Kavivanar','serif','sans-serif';;
-
+.link2 {
+  font-family: "Kavivanar", "serif", "sans-serif";
 }
 
 #picture-bottom {
