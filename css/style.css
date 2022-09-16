@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+
+@font-face {
+	font-family: "Titillium";
+	src: url("../fonts/Titillium_Web/Titillium-Regular.woff") format("woff"),
+	url("../fonts/Titillium_Web/Titillium-Regular.woff2") format("woff2") ;
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Titillium','Kavivanar','serif','sans-serif';
+  font-style: bold;
+  background-color: #c4d2bd;
+}
+
+.article-name {
+	font-family: 'Titillium','Kavivanar','serif','sans-serif';
+  font-size: 35px;
+  text-align: center;
+  text-shadow: 1px 7px 5px #000;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.list-of-products li {
+	font-family: 'CircularStd','Kavivanar','serif','sans-serif';
+  display: list-item;
+  text-align: center;
+  line-height: 2;
+  font-size: 20px;
+  list-style-type: square;
+  text-decoration: underline;
+  color: blue;
+  text-shadow: 1px 10px 5px;
+}
+
+.headerlocal1,
+.headerlocal2,
+.headerlocal3 {
+	font-family: 'Kalam','Kavivanar','serif','sans-serif';;
+	font-weight: 700;
+  	font-size: 20px;
+  	margin-top: 5px;
+  	margin-bottom: 7px;
+  	letter-spacing: 5px;
+  	text-indent: 20px;
+}
+
+.iphone14,
+.MacBook,
+.AirPods {
+  background-color: #a3b49a;
+}
+
+.iphone14,
+.MacBook,
+.AirPods {
+  margin: 20px 20px 20px 20px;
+  padding: 5px 5px 5px 5px;
+  white-space: normal;
+  letter-spacing: 2px;
+}
+
+p {
+  font-family: 'Titillium','Kavivanar','serif','sans-serif';;
+  font-size: 15;
+  text-indent: 20px;
+}
+
+.footer {
+  margin-top: 2%;
+  margin-left: 20px;
+  margin-bottom: 3%;
+  letter-spacing: 5px;
+  line-height: 1, 5;
+}
+
+.link1,
+.link2 {
+  color: blue;
+}
+
+.link1,
+.link2{
+font-family: 'Kavivanar','serif','sans-serif';;
+
+}
+
+#picture-bottom {
+  margin-top: 1cm;
+}
