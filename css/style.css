@@ -59,6 +59,10 @@ body {
   text-indent: 20px;
 }
 
+#line-through {
+  text-decoration: line-through;
+}
+
 .iphone14,
 .MacBook,
 .AirPods {
