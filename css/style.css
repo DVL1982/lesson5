@@ -79,7 +79,10 @@ body {
 .center3,
 .center4,
 .center5 {
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 p {
@@ -106,6 +109,6 @@ p {
   font-family: "Kavivanar", "serif", "sans-serif";
 }
 
-#picture-bottom {
-  margin-top: 1cm;
+.center5 {
+  margin-top: 3cm;
 }
